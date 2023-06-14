@@ -4,6 +4,7 @@
 // 78 -> третьей цифры нет
 // 32679 -> 6
 
+Console.Clear();
 int ReadInt(string message)
 {
     Console.Write(message);                      // Вывод приглашения

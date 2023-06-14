@@ -4,6 +4,7 @@
 // 7 -> да
 // 1 -> нет
 
+Console.Clear();
 int ReadInt(string message)
 {
     Console.Write(message);                      // Вывод приглашения
