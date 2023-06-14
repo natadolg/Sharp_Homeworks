@@ -4,6 +4,7 @@
 // 782 -> 8
 // 918 -> 1
 
+Console.Write("Введите число N =  ");
 int ReadInt(string message)
 {
     Console.Write(message);                      // Вывод приглашения
