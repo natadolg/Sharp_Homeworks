@@ -2,6 +2,7 @@
 //5 -> 2, 4
 //8 -> 2, 4, 6, 8
 
+Console.Clear();
 Console.Write("Введите число N =  ");
 int num = Convert.ToInt32(Console.ReadLine());
 
