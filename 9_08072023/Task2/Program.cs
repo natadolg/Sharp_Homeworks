@@ -14,8 +14,8 @@ int ReadInt(string message)
 
 int SumNaturalNumberMN(int numM, int numN)
 {
-    if (numM > numN) return 1;
-    return  numM * SumNaturalNumberMN(numM + 1, numN);
+    if (numM > numN) return 0;
+    return  numM + SumNaturalNumberMN(numM + 1, numN);
 }
 
 int numberM = ReadInt("Введите начальное значение промежутка M =  ");
